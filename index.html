@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SecureSpark - Unlock the power of security with every click.</title>
+
+  <!-- Font: Inter-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+
+<!-- Ico from <a href="https://www.flaticon.com/free-icons/padlock" title="padlock icons">Padlock icons created by Pixel perfect - Flaticon</a>-->
+<link rel="shortcut icon" href="verified.png" type="image/x-icon">
+
+<link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+  <header>
+    <div class="logo-con">
+      <div class="logo-img-cont">
+        <img class="logo-img" src="verified.png" alt="SecureSpark">
+      </div>
+      <div class="logo-brand-name" title="SecureSpark - Password Generator">SecureSpark - Password Generator</div>
+    </div>
+  </header>
+
+  <main>
+    <div class="main-con">
+     <div class="left right-left"></div>
+
+     <div class="mid">
+      <div class="mid-title">Password Generator</div>
+      <div class="mid-caption">Empowering you with strong, reliable passwords for a safer digital world.</div>
+
+      <div class="strong-indicator">
+        
+      </div>
+
+      <div class="result-and-copy-con">
+        <div class="mid-result"></div>
+        <button class="mid-copy">
+          <img src="content_copy_24dp_408C3E_FILL0_wght400_GRAD0_opsz24.svg" class="copy-btn" alt="">
+        </button>
+      </div>
+
+      <div class="length-slider">
+        <div class="password-length">Password Length</div>
+        <div class="pass-slider-min"> - </div>
+        <input type="range" id="password-slider" min="8" max="20" value="10">
+        <div class="pass-slider-max"> + </div>
+      </div>
+
+      <div class="slider-value"></div>
+
+      <div class="btn-con">
+        <button class="pass-regen">Generate</button>
+        <button class="pass-custom">Custom Password</button>
+      </div>
+
+     </div>
+
+     <div class="right right-left"></div>
+    </div>
+  </main>
+
+  <div class="foot-notes"> 
+    <div class="jonelle-notes">
+      Made with <img src="favorite_24dp_5D0E07_FILL0_wght400_GRAD0_opsz24.svg" class="heart-ico"> by Jonel Cubio.
+    </div>
+  </div>
+  
+  <script src="index.js"></script>
+</body>
+</html>
